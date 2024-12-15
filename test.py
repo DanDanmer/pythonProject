@@ -1,0 +1,1 @@
+print("Girrafe\N\Academy")
