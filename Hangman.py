@@ -1,17 +1,17 @@
 import random
 
 def print_welcome_message():
-    print("Welcome to the game Hangman")
-    print(" _    _ ")
-    print("| |  | |")
-    print("| |__| | __ _ _ __   __ _ _ __ ___   __ _ _ __")
-    print("|  __  |/ _` | '_ \\ / _` | '_ ` _ \\ / _` | '_ \\")
-    print("| |  | | (_| | | | | (_| | | | | | | (_| | | | |")
-    print("|_|  |_|\\__,_|_| |_|\\__, |_| |_| |_|\\__,_|_| |_|")
-    print("                     __/ |")
-    print("                    |___/")
-    print("")
-
+    print("""\t\t\tWelcome to the game Hangman
+     _    _ 
+    | |  | |
+    | |__| | __ _ _ __   __ _ _ __ ___   __ _ _ __
+    |  __  |/ _` | '_ \\ / _` | '_ ` _ \\ / _` | '_ \\
+    | |  | | (_| | | | | (_| | | | | | | (_| | | | |
+    |_|  |_|\\__,_|_| |_|\\__, |_| |_| |_|\\__,_|_| |_|
+                         __/ |
+                        |___/
+    """)
+print(random.randint(5, 10))
 
 def print_hangman_picture(stage):
     hangman_stages = [
