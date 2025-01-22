@@ -46,21 +46,21 @@ def count_chars(my_str):
 magic_str = "abra cadabra"
 print(count_chars(magic_str))
 
-# def inverse_dict(my_dict):
-#     inverse_dict = {}
-#
-#     for key, value in my_dict.items():
-#
-#         if value in inverse_dict:
-#             inverse_dict[value].append(key)
-#
-#         else:
-#
-#             inverse_dict[value] = [key]
-#
-#     for key in inverse_dict:
-#         inverse_dict[key].sort()
-#
-#     return inverse_dict
-# course_dict = {'I': 3, 'love': 3, 'self.py!': 2}
-# print(inverse_dict(course_dict))
+def inverse_dict(my_dict):
+    inverse_dict = {}
+
+    for key, value in my_dict.items():
+
+        if value in inverse_dict:
+            inverse_dict[value].append(key)
+
+        else:
+
+            inverse_dict[value] = [key]
+
+    for key in inverse_dict:
+        inverse_dict[key].sort()
+
+    return inverse_dict
+course_dict = {'I': 3, 'love': 3, 'self.py!': 2}
+print(inverse_dict(course_dict))
