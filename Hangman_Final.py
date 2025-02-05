@@ -45,7 +45,7 @@ HANGMAN_PHOTOS = {
 }
 
 def clear_screen():
-    """Clears the terminal screen. Works for both Windows and Unix-based systems."""
+    """Clears the screen."""
     os.system('cls' if os.name == 'nt' else 'clear')
 
 def print_welcome_message():
